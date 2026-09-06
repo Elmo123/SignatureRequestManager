@@ -1,0 +1,16 @@
+### Alusta sovellus:
+npm install
+
+### Aja sovellus:
+npm run dev
+
+### Käyttö:
+https://localhost:3000/swagger
+
+- POST/SigningRequests
+    * Postaa allekirjoituspyyntö. Toteutus vain mock, joten käytä höpöhöpö dataa
+- GET/SigningRequests
+    * Hae kaikki allekirjoituspyynnöt
+    * Palauttaa postaamasi pyynnöt
+- GET/SingningRequest{id}
+    * Palauttaa ID:llä postaamasi allekirjoituspyynnön
