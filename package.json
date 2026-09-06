@@ -2,18 +2,19 @@
   "name": "signature-request-manager",
   "version": "1.0.0",
   "type": "commonjs",
-  "main": "dist/server.js",
   "scripts": {
-    "dev": "ts-node-dev --respawn src/server.ts",
+    "dev": "tsx src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "ts-node-dev": "^2.0.0"
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
+    "swagger-jsdoc": "^6.3.0",
+    "swagger-ui-express": "^5.0.1",
+    "tsx": "^4.23.13",
     "typescript": "^5.9.3"
   }
 }

@@ -18,7 +18,7 @@ const swaggerDefinition: SwaggerDefinition = {
 
 export const swaggerOptions = {
   swaggerDefinition,
-  apis: ["./src/api/SigninRequest.routes.ts"]
+  apis: ["./src/api/signingRequest.routes.ts"]
 };
 
 export const swaggerSpec = swaggerJsdoc(swaggerOptions);
