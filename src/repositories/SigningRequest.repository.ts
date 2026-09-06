@@ -1,4 +1,4 @@
-import { SigningRequest } from "../models/SigningRequest";
+import { SigningRequest } from "../models/signingRequest";
 
 const store = new Map<string, SigningRequest>();
 

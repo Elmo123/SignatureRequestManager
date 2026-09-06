@@ -1,6 +1,6 @@
-import { SigningRequestRepository } from "../repositories/SigningRequest.repository";
-import { SignatureProviderMock } from "../providers/SignatureProvider.mock";
-import { SigningRequest } from "../models/SigningRequest";
+import { SigningRequestRepository } from "../repositories/signingRequest.repository";
+import { SignatureProviderMock } from "../providers/signatureProvider.mock";
+import { SigningRequest } from "../models/signingRequest";
 
 export const SigningRequestService = {
   create(documentId: string, recipients: any[]) {
